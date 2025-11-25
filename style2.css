@@ -1,0 +1,120 @@
+body {
+    background-color: #F1F8FF;
+}
+
+header {
+    background-color: #203A6C;
+    height: auto;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-text a:visited{
+    color: white;
+}
+
+.header-text a{
+    color: white;
+}
+
+.header-text{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+    margin: 10px;
+    gap: 15px;
+}
+
+section {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+}
+
+.main-text {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+h2{
+    color: #345180;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #345180;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, td {
+    border: 1px solid rgb(196, 196, 196);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    width: calc(100% - 15px);
+    margin: 15px;
+}
+
+.tbl-head {
+    font-weight: bold;
+    background-color: #F2F2F2;
+}
+
+img {
+    width: 400px;
+}
+
+.radio-grid {
+    display: grid;
+    grid-template-columns: 400px 30px;
+    gap: 10px 20px;
+}
+
+#planning {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input-text {
+    height: 24px;
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.input-select {
+    padding: 7px;
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.big-input {
+    height: 200px;
+    width: 100%;
+}
+
+button {
+    background-color: #345180;
+    padding: 10px;
+    margin: 15px 15px 10px 0px;
+    color: white;
+    border: none;
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 50px 0px 0px 0px;
+    box-sizing: border-box;
+
+    height: 200px;
+    background-color: #203A6C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
