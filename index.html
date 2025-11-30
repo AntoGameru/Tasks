@@ -4,11 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a href="task1.html">Задание 1</a>
-    <a href="task2.html">Задание 2</a>
-    <a href="task3.html">Задание 3</a>
-    <a href="task4.html">Задание 4</a>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html">Мой сайт</a>
+            </div>
+            <div class="nav-right">
+                <div id="nav-main">
+                    <a href="#">Главная</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <button id="burger">
+                    <img src="pics/3844438-hamburger-menu-more-navigation_110319.png">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div id="side-menu">
+        <button id="close-menu">×</button>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </div>
+
+    <main>
+        <section>
+            <h1>Добро пожаловать!</h1>
+            <p>Это простой сайт с бургер-меню и одним блоком контента. На мобильных устройствах меню сворачивается в бургер иконку.</p>
+            <p>Простой и понятный дизайн без лишних элементов.</p>
+        </section>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
